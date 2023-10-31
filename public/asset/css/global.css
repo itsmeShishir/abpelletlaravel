@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+  /* COLORS */
+  --primary: #e41513;
+  --primary-color: #e41513;
+  --gray: #808080;
+
+  /* FONT */
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Lato', sans-serif;
+
+  /* SIZES */
+  --max-width: 1315px;
+  --b-bottom-after: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+.body_width {
+  max-width: var(--max-width);
+  margin: auto;
+}

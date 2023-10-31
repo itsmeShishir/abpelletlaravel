@@ -1,0 +1,187 @@
+.contactus_container {}
+
+.contactUsContainer {
+  background: url('/assets/img/background-img.jpg');
+  text-align: center;
+  height: auto;
+  padding: 3em;
+  margin-bottom: 4em;
+}
+
+.contactUsTitle h4 {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.text-gray {
+  color: gray;
+}
+
+article {
+  max-width: var(--max-width);
+  margin: auto;
+  text-align: justify;
+  color: gray;
+  padding: 0 15px;
+}
+
+
+.horizontalLine {
+  margin: 2em 0;
+}
+
+.spanHorizontalLine {
+  width: 95%;
+  margin: auto;
+  color: rgb(171, 168, 168);
+}
+
+.contactUsFormTitle {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 50;
+  margin-bottom: 2rem;
+}
+
+.textArea {
+  width: 100%;
+  position: relative;
+  border: none;
+  margin: 24px 0;
+  border-radius: 0.2em;
+  padding: 0 0.4em;
+  background-color: #f5f5f5;
+  color: #4c4c4c;
+  font-size: 18px;
+  appearance: none;
+  display: block;
+}
+
+
+.bg-gray {
+  border-radius: 0.12em;
+  margin: 0.5em 0;
+  background: #f5f5f5;
+}
+
+.formSendUp {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.contactInput {
+  width: 100%;
+  border: hidden;
+  display: block;
+  height: 2.5em;
+  margin-bottom: 24px;
+  padding: 0 12px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #4c4c4c;
+  font-size: 18px;
+  appearance: none;
+  transition: all .35s;
+}
+
+.sendMssg {
+  margin: 0 0.6em;
+  background: red;
+  padding: 0.6em;
+  border-radius: 5px;
+}
+
+.sendMssgLink {
+  width: 100%;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.contactsTile {
+  margin-top: 3em;
+  padding: 8px 8px 0;
+}
+
+.contactsTileBody {
+  margin-top: 2em;
+  position: relative;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.contactsTileTitle {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.contactsTileContent {
+  margin-top: 0.4em;
+}
+
+.contact_p {
+  margin: 0 0 24px;
+}
+
+.textNormal {
+  font-weight: 400 !important;
+}
+
+.textGray {
+  color: gray;
+}
+
+.primaryColor {
+  color: var(--priamry) !important;
+}
+
+.yourMessageBox {
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+}
+
+
+@media (min-width: 750px) {
+  .contactsRow {
+    margin-top: -1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sendMssg {
+    margin-top: 0.4em;
+  }
+}
+
+@media (min-width: 992px) {
+  .bigScreenContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .contactsTile,
+  .contactsTileBody {
+    margin-top: 0;
+  }
+}
+
+@media(min-width: 1200px) {
+
+  .spanHorizontalLine {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .sendMssgLink:hover>.sendMssg {
+    border: 1px solid #ccc;
+
+  }
+}
